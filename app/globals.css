@@ -2,12 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
-.hero {
-    @apply w-full flex p-20 h-20 bg-gray-100 flex-col justify-center items-center space-y-2;
+
+
+.hero__container {
+    @apply w-full flex p-20 h-fit bg-gray-100 flex-col justify-center items-center gap-2;
 }
 .hero__title {
     @apply text-4xl font-bold;
 }
-.hero a {
-    @apply text-blue-700;
+.hero__subtitle {
+    @apply text-xl;
+}
+.hero__imgae{
+    @apply w-1/2;
 }
