@@ -12,7 +12,7 @@ const Navbar = () => {
                 <Image src="/logo-apple.svg" alt="logo" width={12} height={12} className="object-contain"></Image>
             </Link>
             {navbarList.map((item,index)=>(
-                <Link href={item} key={index}>
+                <Link href="/" key={index}>
                     <span className="max-md:hidden text-xs">{item}</span>
                 </Link>
             ))}
