@@ -17,7 +17,7 @@ const Hero = () => {
         />
         <div className="hero__image-container">
           <div className="hero__image">
-            <Image src="/hero-macbook.png" width={1000} height={300} className="object-contain mix-blend-multiply" alt=""/>
+            <Image src="/hero-macbook.png" layout="responsive"  width={1000} height={300} className="object-contain mix-blend-multiply" alt=""/>
           </div>
         </div>
       </div>

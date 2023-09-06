@@ -5,13 +5,13 @@
 
 
 .hero__container {
-    @apply w-full flex pt-32 p-20 h-fit bg-gray-100 flex-col justify-center items-center gap-2;
+    @apply w-full flex pt-32 p-20 h-fit bg-gray-100 flex-col justify-center items-center gap-4;
 }
 .hero__title {
-    @apply text-4xl font-bold;
+    @apply text-4xl  text-center font-bold;
 }
 .hero__subtitle {
-    @apply text-xl;
+    @apply text-xl  text-center;
 }
 .hero__imgae{
     @apply w-1/2;
